@@ -31,8 +31,7 @@ body {
 }
 
 .choice-bucket {
-  width: 33.333333%;
-  float: left;
+  width: 45%;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -81,10 +80,10 @@ form input[type=submit] {
     border: 0;
     color: #fff;
     font-size: 20px;
-    padding: 1em 2em;
+    padding: 1em 1em;
     cursor: pointer;
     margin: 0 auto 60px;
-    display: block;
+    display: inline-block;
     text-align: center;
     border-radius: 6px;
     font-weight: bold;

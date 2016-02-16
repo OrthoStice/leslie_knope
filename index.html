@@ -5,14 +5,14 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
 
-  <title>Futuristic MASH</title>
+  <title>Leslie Knope Compliments</title>
   <link href="normalize.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
   <h1 class="logo"><img src="img/mash-logo.svg" /></h1>
-  <p class="description">Fill in the blanks and your future will be foretold.</p>
+  <p class="description">Enter your name and get a compliment from Leslie.</p>
 
 <form action="" method="post" id="mash">
 
@@ -23,32 +23,19 @@
   <div class="bucket">
   
     <div class="choice-bucket">
-      <h4 class="highlight">Where will you live?</h4>
-        <input name="location[]" type="text">
-        <input name="location[]" type="text">
-        <input name="location[]">
-        <input name="location[]">
+      <h4 class="highlight">First Name</h4>
+        <input name="firstName" type="text">
       </div>
       
       <div class="choice-bucket">
-        <h4 class="highlight">Your future profession?</h4>
-          <input name="profession[]">
-          <input name="profession[]">
-          <input name="profession[]">
-          <input name="profession[]">
-      </div>
-      
-     <div class="choice-bucket">
-        <h4 class="highlight">What's your future pet?</h4>
-          <input name="pet[]">
-          <input name="pet[]">
-          <input name="pet[]">
-          <input name="pet[]">
+        <h4 class="highlight">Last Name</h4>
+          <input name="lastName">
       </div>
 
   </div>
 
-  <input type="submit" value="Tell my fortune">
+  <input type="submit" value="I'd like a compliment.">
+  <input type="submit" value="I'd prefer to be insulted.">
 </form>
 <script src="script.js"></script>
 </body>
